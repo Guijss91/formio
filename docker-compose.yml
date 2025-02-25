@@ -18,14 +18,14 @@ services:
       - "3001:3001"
     environment:
       DEBUG: formio:*
-      ROOT_EMAIL: admin@example.com
-      ROOT_PASSWORD: CHANGEME
+      ROOT_EMAIL: dpdfaida@gmail.com
+      ROOT_PASSWORD: dpdf@2024
       NODE_CONFIG: |
         {
           "mongo": "mongodb://mongo-ce:27017/formio-ce",
           "port": 3001,
           "jwt": {
-            "secret": "CHANGEME"
+            "secret": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWxlYXRvcmlvIiwiaWF0IjoxNzA4NTkwMjU5LCJleHAiOjE3MDg2NzY2NTl9.M6T1dfNY7fHxsLmC8l3cGGR9gE7OqzqTz_aMFvIT_bM"
           }
         }
     networks:
