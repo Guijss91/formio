@@ -8,6 +8,8 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME
       - MONGO_INITDB_ROOT_PASSWOR
+    ports:
+      - "27017:27017"
     networks:
       - formio-ce
   formio-ce:
