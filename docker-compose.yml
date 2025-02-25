@@ -6,8 +6,8 @@ services:
     volumes:
       - "./data/db:/data/db"
     environment:
-      - MONGO_INITDB_ROOT_USERNAME: admin
-      - MONGO_INITDB_ROOT_PASSWORD: dpdf@2024
+      - MONGO_INITDB_ROOT_USERNAME: "admin"
+      - MONGO_INITDB_ROOT_PASSWORD: "dpdf@2024"
     ports:
       - "27017:27017"
     networks:
