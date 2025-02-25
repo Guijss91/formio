@@ -30,10 +30,3 @@ services:
             "secret": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWxlYXRvcmlvIiwiaWF0IjoxNzA4NTkwMjU5LCJleHAiOjE3MDg2NzY2NTl9.M6T1dfNY7fHxsLmC8l3cGGR9gE7OqzqTz_aMFvIT_bM"
           }
         }
-    networks:
-      - formio-ce
-    depends_on:
-      - mongo-ce
-networks:
-  formio-ce:
-    driver: bridge
