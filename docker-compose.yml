@@ -18,8 +18,8 @@ services:
       - "3001:3001"
     environment:
       DEBUG: formio:*
-      ROOT_EMAIL: dpdfaida@gmail.com
-      ROOT_PASSWORD: dpdf@2024
+      ROOT_EMAIL: admin@example.com
+      ROOT_PASSWORD: CHANGEME
       NODE_CONFIG: |
         {
           "mongo": "mongodb://mongo-ce:27017/formio-ce",
